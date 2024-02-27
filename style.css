@@ -1,0 +1,169 @@
+
+body {
+    margin: 0;
+    background-color: #333;
+}
+ul {
+
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  background-color: #333;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width:100%;
+  
+
+}
+
+li {
+    float: left;
+    
+}
+
+.right {
+    display: block;
+    align-items: center;
+    margin-top: 14px;
+    margin-right: 5px;
+    float: right;
+}
+
+.header {
+    margin-top: 60px;
+    text-align: center;
+    padding: 100px;
+    border-bottom: groove;
+    border-width: 7px;
+    border-color: gray;
+    background-color: black;
+    margin-bottom: 60px;
+}
+.spam {
+    color: greenyellow;
+}
+.spam2 {
+    color: rgb(238, 159, 55);
+}
+h1 {
+    width: 300px;
+    margin: auto;
+    color: white;
+    text-align: center;
+}
+input {
+    height: 25px;
+    width: 250px;
+    border-width: 5;
+    border-color: green;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  outline: none;
+
+}
+div {
+    background-color: #333;
+    border-radius: 10px;
+}
+input:active {
+    background-color: aqua;
+}
+
+li a{
+    display: block;
+ text-decoration: none;
+ color: white;
+ padding: 15px;
+ transition: margin 0.6s;
+}
+
+a:hover:not(.active){
+    background-image: Linear-gradient(to right,rgb(46, 94, 176),rgb(40, 169, 180));
+    margin: 5px;
+}
+
+.active {
+    background-color: green;
+}
+
+label {
+    color: white;
+    padding-left: 8px;
+
+}
+
+.intro {
+    overflow: hidden;
+    width: 40%;
+    margin-left: 10%;
+    color: rgb(193, 205, 210);
+    background-color: black;
+    border-right: solid ;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    padding: 40px;
+    border-left: outset 10px green;
+    transition: width 2s;
+   
+
+    
+}
+
+.intro:hover {
+    width: 60%;
+    background-image: Linear-gradient(to right,rgb(46, 94, 176),rgb(40, 169, 180));
+}
+
+button {
+    padding: 8px;
+    width: 140px;
+    margin-top: 20px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: width 0.6s;
+}
+
+button:hover {
+ width: 150px;
+ background-image: Linear-gradient(to right,rgb(46, 94, 176),rgb(40, 169, 180));
+ color: black;
+ cursor: pointer;
+}
+
+.inline{
+  
+    
+    width: 40vw;
+    margin: 5px;
+    text-align: center;
+    /* height: 40vh ; */
+    background-color: black;
+    color: white;
+    transition: height 1s;
+    transition: width 1s;
+    transition: margin 0.4s;
+}
+
+.box {
+   
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+
+.img {
+    padding: 14px;
+}
+
+.inline:hover {
+    background-color: #3f4c60;
+    margin: 22px;
+    cursor: pointer;
+  
+}
